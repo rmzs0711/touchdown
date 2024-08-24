@@ -7,5 +7,12 @@
         "scripts": "dev",
         "commandArguments": ["--host"],
     },
+    {
+      "type": "command",
+      "program": "ngrok",
+      "name": "ngrok host",
+      "args": ["http", "https://localhost:5173/"],
+    }
+
   ]
 }
