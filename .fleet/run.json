@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "type": "npm",
+        "name": "run app",
+        "command": "run",
+        "scripts": "dev",
+        "commandArguments": ["--host"],
+    },
+  ]
+}
