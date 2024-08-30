@@ -36,6 +36,8 @@ jobs:
           node-version: 18
           cache: 'npm'
           cache-dependency-path: './'
+      - name: Change dir
+        run: cd client
       - name: Install dependencies
         run: npm install
       - name: Build
