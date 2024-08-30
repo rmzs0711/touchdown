@@ -2,6 +2,7 @@
   "configurations": [
     {
       "type": "npm",
+      "workingDir": "client/",
         "name": "run app",
         "command": "run",
         "scripts": "dev",
