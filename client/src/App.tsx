@@ -1,6 +1,5 @@
 import {Button, List} from '@telegram-apps/telegram-ui';
 import './App.css';
-import WebApp from "@twa-dev/sdk";
 import FullWidthButton from "./components/fullWidthButton.tsx";
 
 async function sendRequest(dataset: string) {
@@ -17,7 +16,6 @@ async function sendRequest(dataset: string) {
     );
     const data = await response.json();
     window.console.log(`${data.message}`);
-//    WebApp.showAlert(data);
   } catch (error) {
     console.error('Error:', error);
   }
