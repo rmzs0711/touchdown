@@ -38,7 +38,7 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
   margin: 1em 0;
-  max-width: 60%;
+  max-width: 100%;
   word-wrap: break-word;
   text-align: center;
 }
@@ -89,7 +89,7 @@ button:focus-visible {
 }
 
 .guide-step p {
-  max-width: 50%;
+  max-width: 100%;
   word-wrap: break-word;
   text-align: center;
 }
